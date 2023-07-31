@@ -1,0 +1,80 @@
+body {
+  
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+body {
+  background-image: url('https://tse1.mm.bing.net/th?id=OIP.DSUVE8lzJiYGveaq1dPmMwHaEa&pid=Api&P=0&h=180');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.quiz-container {
+  max-width: 60%;
+  background-color: orange;
+  border-radius: 10px;
+  padding: 80px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+  color:blue;
+}
+
+#question-container {
+  margin-bottom: 20px;
+  color:red;
+}
+
+#question-text {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color:red;
+}
+
+#answer-buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  color :violet;
+}
+
+button {
+  height: 40px;
+  font-size: 16px;
+  background-color: #eaeaea;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  background-color:green;
+}
+
+#controls-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#timer-container {
+  display: flex;
+  align-items: center;
+}
+
+#timer-text {
+  font-size: 14px;
+}
+
+#timer {
+  font-weight: bold;
+  margin-left: 5px;
+}
