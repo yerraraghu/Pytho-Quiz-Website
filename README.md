@@ -1,1 +1,1 @@
-# Pytho-Quiz-Website
+# Python-Quiz-Website
